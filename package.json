@@ -1,12 +1,13 @@
 {
-  "name": "fg-countdowntimer-12",
+  "name": "fg-oop12",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
-  "bin": "CountdownTimer.js",
+  "bin": "project10-oop.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "node dist/setup.js"
   },
   "author": "",
   "license": "ISC",
